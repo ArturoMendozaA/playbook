@@ -15,7 +15,7 @@ const myModule = (() =>{
     const privateBar = [1,2,3,4]
     const baz = "soy un valor que va a ser expuesto"
 
-    //Variable para guardar las variables locales **¿Públicas?**
+    //Variable para guardar las variables  **¿Públicas?**
     const exported = {
         publicFoo: "Valor público, pueden verme desde donde me llamen",
         publicBar: "Otro valor público",
