@@ -8,3 +8,9 @@ dbLogger.info('This is an informational message')
 // Creación de otro objeto
 const accessLogger = new Logger('ACCESS')
 accessLogger.verbose('This is a verbose message')
+
+const dragoLogger= new Logger('dragon')
+dragoLogger.info('Mensaje dragonball ')
+
+const dragonLogger= new Logger('dragon')
+dragonLogger.verbose('Mensaje dragonball ')
