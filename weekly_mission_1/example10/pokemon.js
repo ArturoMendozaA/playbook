@@ -7,3 +7,6 @@ export class MyPokemon{
         console.log(`${this.name}, says: Hello!!!`)
     }
 }
+
+
+sdds
