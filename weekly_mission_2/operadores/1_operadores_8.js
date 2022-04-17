@@ -12,3 +12,8 @@ const scores = [
   console.log("Ejemplo 8: Filtrando elementos por score")
   console.log(scoresGreaterEighty)
   
+  //pruebas
+
+  console.log('\n Por nombre')
+  const filterName= scores.filter(arre => arre.name.includes("A"))
+  console.log(filterName)
