@@ -79,5 +79,7 @@ const explorers = [
    console.log('EL primer valor que contiene CDMX es:', firstCDMX)
 //ejercicio 6
     console.log('\n Obtén la suma de todos los exercises_completed, usa REDUCE')
-    const reduceExcercise = explorers.reduce(function(acc, currentVa){acc.exercises_completed + currentVa.exercises_completed})
+    const reduceExcercise = explorers.reduce((acc, {exercises_completed})=>acc + exercises_completed,0)
     console.log(reduceExcercise)
+    const total= Object.values(explorers).reduce((acc,{exercises_completed}) => acc + exercises_completed,0)
+    console.log(total)
