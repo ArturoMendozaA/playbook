@@ -4,7 +4,8 @@
   "description": "Primer proyecto de las semana 3, npm, estructura de carpetas y pruebas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "ArturoMendozaA",
   "license": "ISC",
