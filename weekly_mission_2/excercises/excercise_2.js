@@ -83,3 +83,8 @@ const explorers = [
     console.log(reduceExcercise)
     const total= Object.values(explorers).reduce((acc,{exercises_completed}) => acc + exercises_completed,0)
     console.log(total)
+//ejercicio 7
+   console.log('\n Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME')
+
+   const someTrue= explorers.some(({exercisesFinished}) => exercisesFinished === true)
+   console.log(someTrue)
