@@ -10,5 +10,5 @@ class Spiderman {
         return "Hey, I'm "+this.actor+" from "+this.studio+" studio"
     }
 }
-//Probando cambios de commit
+//Probando cambios de commit2
 module.exports = Spiderman
